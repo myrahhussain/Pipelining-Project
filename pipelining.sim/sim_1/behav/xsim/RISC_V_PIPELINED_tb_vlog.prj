@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sources/ALU_64_bit.v" \
+"../../../../sources/ALU_control.v" \
+"../../../../sources/Adder.v" \
+"../../../../sources/Data_Memory.v" \
+"../../../../sources/EX_MEM.v" \
+"../../../../sources/Hazard_detection_unit.v" \
+"../../../../sources/ID_EX.v" \
+"../../../../sources/IF_ID.v" \
+"../../../../sources/Instruction_Memory.v" \
+"../../../../sources/MEM_WB.v" \
+"../../../../sources/Program_counter.v" \
+"../../../../sources/RISC_V_Processor_Pipelined.v" \
+"../../../../sources/control_unit.v" \
+"../../../../sources/forwarding_unit.v" \
+"../../../../sources/immediate_data_extractor.v" \
+"../../../../sources/instruction_parser.v" \
+"../../../../sources/mux.v" \
+"../../../../sources/mux_3to1.v" \
+"../../../../sources/registerFile.v" \
+"../../../../sim/RISC_V_PIPELINED_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

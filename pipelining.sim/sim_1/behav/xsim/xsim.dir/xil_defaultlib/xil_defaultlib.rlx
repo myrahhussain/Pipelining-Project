@@ -1,0 +1,26 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/pipelining.sim/sim_1/behav/xsim/glbl.v,1777112187,verilog,,,,glbl,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sim/forwarding_tb.v,1777112187,verilog,,,,forwarding_tb,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/ALU_64_bit.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/ALU_control.v,,ALU_64_bit,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/ALU_control.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Adder.v,,ALU_control,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Adder.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Branch_unit.v,,Adder,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Branch_unit.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Data_Memory.v,,Branch_unit,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Data_Memory.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/EX_MEM.v,,Data_Memory,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/EX_MEM.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Hazard_detection_unit.v,,EX_MEM,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Hazard_detection_unit.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/ID_EX.v,,Hazard_detection_unit,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/ID_EX.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/IF_ID.v,,ID_EX,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/IF_ID.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Instruction_Memory.v,,IF_ID,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Instruction_Memory.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/MEM_WB.v,,Instruction_Memory,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/MEM_WB.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Program_counter.v,,MEM_WB,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/Program_counter.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/RISC_V_Processor_Pipelined.v,,Program_Counter,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/RISC_V_Processor_Pipelined.v,1777140504,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/control_unit.v,,RISC_V_Processor_Pipelined,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/control_unit.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/forwarding_unit.v,,control_unit,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/forwarding_unit.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/immediate_data_extractor.v,,forwarding_unit,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/immediate_data_extractor.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/instruction_parser.v,,immediate_data_extractor,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/instruction_parser.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/mux.v,,instruction_parser,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/mux.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/mux_3to1.v,,mux,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/mux_3to1.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/registerFile.v,,mux_3to1,,,,,,,,
+E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sources/registerFile.v,1777112187,verilog,,E:/Habib/Sem 4/CA/CA_Pipelining_Project/Pipelining-Project/sim/forwarding_tb.v,,registerFile,,,,,,,,

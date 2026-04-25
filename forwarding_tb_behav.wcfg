@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="forwarding_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="forwarding_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1048958fs"></ZoomEndTime>
+      <Cursor1Time time="690700fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/forwarding_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reg_x1" type="array">
+      <obj_property name="ElementShortName">reg_x1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reg_x2" type="array">
+      <obj_property name="ElementShortName">reg_x2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reg_x3" type="array">
+      <obj_property name="ElementShortName">reg_x3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reg_x4" type="array">
+      <obj_property name="ElementShortName">reg_x4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/reg_x5" type="array">
+      <obj_property name="ElementShortName">reg_x5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_x5[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w0" type="array">
+      <obj_property name="ElementShortName">mem_w0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w0[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w1" type="array">
+      <obj_property name="ElementShortName">mem_w1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w2" type="array">
+      <obj_property name="ElementShortName">mem_w2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w3" type="array">
+      <obj_property name="ElementShortName">mem_w3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w3[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w4" type="array">
+      <obj_property name="ElementShortName">mem_w4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w4[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w5" type="array">
+      <obj_property name="ElementShortName">mem_w5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w5[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_w6" type="array">
+      <obj_property name="ElementShortName">mem_w6[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_w6[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/forward_a" type="array">
+      <obj_property name="ElementShortName">forward_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_a[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/forward_b" type="array">
+      <obj_property name="ElementShortName">forward_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_b[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/forward_a_out" type="array">
+      <obj_property name="ElementShortName">forward_a_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_a_out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/forward_b_out" type="array">
+      <obj_property name="ElementShortName">forward_b_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_b_out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/memtoreg" type="logic">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/aluop" type="array">
+      <obj_property name="ElementShortName">aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/id_ex_rs1_val" type="array">
+      <obj_property name="ElementShortName">id_ex_rs1_val[63:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs1_val[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/id_ex_rs2_val" type="array">
+      <obj_property name="ElementShortName">id_ex_rs2_val[63:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs2_val[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/id_ex_rs1" type="array">
+      <obj_property name="ElementShortName">id_ex_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/id_ex_rs2" type="array">
+      <obj_property name="ElementShortName">id_ex_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/id_ex_rd" type="array">
+      <obj_property name="ElementShortName">id_ex_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/ex_mem_rd" type="array">
+      <obj_property name="ElementShortName">ex_mem_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_wb_rd" type="array">
+      <obj_property name="ElementShortName">mem_wb_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/ex_mem_alu_result" type="array">
+      <obj_property name="ElementShortName">ex_mem_alu_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_alu_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/mem_wb_alu_result" type="array">
+      <obj_property name="ElementShortName">mem_wb_alu_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_alu_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/hazard_control_mux" type="logic">
+      <obj_property name="ElementShortName">hazard_control_mux</obj_property>
+      <obj_property name="ObjectShortName">hazard_control_mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/PC_Write" type="logic">
+      <obj_property name="ElementShortName">PC_Write</obj_property>
+      <obj_property name="ObjectShortName">PC_Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/forwarding_tb/IF_ID_Write" type="logic">
+      <obj_property name="ElementShortName">IF_ID_Write</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Write</obj_property>
+   </wvobject>
+</wave_config>
